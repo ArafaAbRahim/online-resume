@@ -1,0 +1,89 @@
+	
+body{
+	background-color: #AED6F1;
+}
+*{padding: 20px;
+margin: 0;
+}
+.container{
+	width: 100%
+}
+.wrapper{
+	width: 900px;
+	margin: auto;
+}
+#clear{
+	clear: both;
+}
+.dark{
+	background-image: url(image/header.jpg);
+}
+.light{
+	background-color: #0E303E;
+	height: 50px;
+}
+.color{
+	background-image: url(image/bc.jpg);
+	height: 70px;
+}
+.resume{
+	background-color: #B6C9DD;
+}
+#border{
+	border: solid gray 1px;
+	width: 50px;
+	border-radius: 3px;
+	margin: 50px auto;
+	background: white;
+	padding: 30px; 
+}
+#logo_left{
+	display: inline-block;
+}
+#logo_right{
+	float: right;
+	margin: 50px;
+}
+#logo_2{
+	float: left;
+}
+#textstyle{
+	height: 30px;
+	width: 250px;
+	border-radius: 8px;
+}
+#buttonstyle{
+	background-color: #CFD3DE;
+	color:black;
+	border-radius: 8px;
+	padding: 5px;
+	width: 70px;
+
+}
+ul li{
+	display: inline-block;
+	width: 150px;
+	height: 35px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius: 8px;
+}
+ul li a{
+	text-decoration: none;
+	color: #E7E8F0;
+	display: block;
+}
+ul li a:hover{
+	color: green;
+	border-radius: 8px;
+}
+ul ul{
+	position: absolute;
+	display: none;
+}
+ ul li:hover> ul{
+	display: block;
+	line-height: 35px;
+}
